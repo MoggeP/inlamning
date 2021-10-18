@@ -1,0 +1,85 @@
+body{
+	font-family: 'Open Sans', sans-serif; /*fonten som länkas från "head" */
+	font-size:18px;
+	color: black;
+}
+.logo{
+	color:black;
+	font-weight:bold;
+	font-size: 47px;
+    padding-top: 21px;
+}
+.nopad{
+	padding: 0px;
+	overflow:hidden;
+}
+.full{
+	width:100%;
+}
+.top-img{
+	margin-top: -97px; /* få upp bilden mera */
+}
+.top-img img{
+	margin-left: -7%; /* bilden börjar utanför containern så den klipps */
+    width: 111%; /* gömmer en del av bilden som i pdf:en */
+}
+.text-right{
+	text-align:Right; /* Texten börjar från höger istället för från vänster */
+}
+.big-title{
+	font-weight: bold;
+    font-size: 52px;  /* större text och tjockare */
+	margin-bottom:1em;
+}
+p{
+	 font-size: 21px; /* storlek på <p> taggen*/
+}
+h1, h2, h3, h4{
+	font-weight:bold;
+	margin-bottom:1em; /* mer mellanrum under texten till den under på alla h1-4 taggar */
+}
+.sec{
+	padding-top:70px;
+	padding-bottom:70px;
+}
+.sidepic{ /* för att få den center mot bilden på vänster sida */
+	align-items:center; /* centrera texten till mitten av sin box */
+}
+video{
+	width:100%;
+}.space{
+	margin-top:1em;
+}
+.tips{
+	overflow: hidden;
+    background-image: url(Files/Q1_newsletter-02.png);
+    background-size: cover;
+    padding-top: 300px;
+    text-align: center;    /* padding över och under texten, bara top så kom texten så långt ner */
+    padding-bottom: 100px;
+    
+}
+footer{
+	background-color: black;
+	color:white;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+footer p{
+	color: white; /* text för <p> i footern */
+}
+@media only screen and (max-width:901px) {
+  .top-img {
+		margin-top: -80px;
+	}
+}
+@media only screen and (max-width:745px) {
+  .top-img {
+		margin-top: -55px;
+	}
+}
+@media only screen and (max-width:561px) {
+  .top-img {
+		margin-top: -20px;
+	}
+}
